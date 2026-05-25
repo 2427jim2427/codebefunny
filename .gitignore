@@ -1,0 +1,15 @@
+# Local Netlify folder
+.netlify
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor 雜檔
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

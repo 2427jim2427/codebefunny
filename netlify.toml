@@ -1,0 +1,10 @@
+# Netlify 設定 — 純靜態網站,無需 build 步驟
+[build]
+  publish = "."      # 直接發佈專案根目錄
+  command = ""       # 沒有建置指令
+
+# 讓網址更乾淨:輸入 /daigou 也能開到 daigou.html
+[[redirects]]
+  from = "/daigou"
+  to = "/daigou.html"
+  status = 200
